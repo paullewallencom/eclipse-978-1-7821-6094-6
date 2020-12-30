@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SampleCommand
+Bundle-SymbolicName: HelloWorldCommand;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.packt.helloworldcommand.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.editors;bundle-version="3.8.0",
+ org.eclipse.jface.text;bundle-version="3.8.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
